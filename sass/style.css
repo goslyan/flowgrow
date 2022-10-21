@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Merriweather-Bold;
+  src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: Merriweather-Regular;
+  src: url(../fonts/Merriweather-Reglar.ttf);
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.html {
+  font-family: Merriweather-Regular;
+  background: #252525;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  background: #252525;
+  margin: 0;
+}
+
+.header_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_items-logo--item {
+  width: 100px;
+  height: 100px;
+}
+
+.header_items-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_items-item--link {
+  padding: 10px 20px;
+  background: #aaaaaa;
+  border-radius: 10px;
+}
+
+.header_items-item--link:first-child {
+  margin-right: 30px;
+}
+
+.header_items-item--link:last-child {
+  background: #4c706b;
+}
+
+.header_items-item--link---item {
+  font-family: Merriweather-Regular;
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
